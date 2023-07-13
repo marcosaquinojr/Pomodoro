@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minimalist Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="timer-container">
+      <div class="timer">
+        <div id="minutes">25</div>
+        <div id="colon"> : </div>
+        <div id="seconds">00</div>
+      </div>
+      <div class="controls">
+        <button id="start"><i class="fas fa-play"></i></button>
+        <button id="reset"><i class="fas fa-redo-alt"></i></button>
+      </div>
+    </div>
+  </div>
+  <button id="mode-toggle" class="mode-toggle"><i class="fas fa-moon"></i></button> <!-- Ícone Lua por padrão -->
+  
+  <script src="script.js"></script>
+</body>
+</html>

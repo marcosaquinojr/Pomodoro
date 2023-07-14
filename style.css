@@ -81,6 +81,16 @@ button.dark-mode {
   transition: opacity 0.3s;
 }
 
-button.dark-mode .mode-toggle {
-  color: #fff;
+@media (max-width: 600px) {
+  .timer {
+    font-size: 80px;
+  }
+
+  .timer div {
+    font-size: 32px;
+  }
+
+  .mode-toggle {
+    font-size: 20px;
+  }
 }
